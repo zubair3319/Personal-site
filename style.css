@@ -1,52 +1,47 @@
-body {
+*{
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
 }
-
-h1 {
-    font-family: 'Aboreto', cursive;
-
-    font-size: 48px;
+.blue-color{
+    color: #363958;
 }
-
-.orange-color {
-    color: orange;
+.coral-color{
+    color: #FF8367;
 }
-
-h3 {
-    font-family: 'Aboreto', cursive;
+.gray-color{
+    color: rgba(11, 11, 11, 0.555);
 }
-
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
-
-section {
-    display: flex;
-}
-
-.half-width {
-    width: 50%;
-    padding-left: 5%;
-}
-
-.half-width-img {
-    width: 60%;
-}
-
-.link-button {
-    color: white;
+.button{
     text-decoration: none;
-    font-weight: 700;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: linear-gradient(orange, rgb(214, 38, 102));
-    padding: 10px 40px;
+    background-color: #363958;
+    padding: 10px 20px;
     border-radius: 10px;
+    color: antiquewhite;
+    display:inline-block;
+    margin: 2% 0;
 }
-
-.top-banner {
+.large-text{
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.para-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+}
+.top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-
+    background-size: cover;
+    margin: 0%;
+}
+.main-container{
+    padding: 2%;
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 2%;
+}
+.img{
+    width: 90%;
 }
