@@ -50,12 +50,12 @@
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(120, 168, 246, 0.539);
+    background-color: rgba(120, 168, 246, 0.25);
     background-blend-mode: darken;
 }
 
 .mid {
-    background-color: rgba(120, 168, 246, 0.767);
+    background-color: rgba(120, 168, 246, 0.068);
 }
 
 .main-container {
@@ -74,4 +74,9 @@
 
 a:hover {
     background-color: rgb(46, 9, 114);
+}
+@media only screen and(max-width:768px) {
+    .header{
+        display: none;
+    }
 }
